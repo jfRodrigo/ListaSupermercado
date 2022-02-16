@@ -1,0 +1,75 @@
+*{
+    margin: 2px;
+    padding: 1px;
+    box-sizing: border-box;
+    border-radius: 12px;
+    
+    
+}
+header{
+    background-color: rgb(53, 10, 94);
+    text-align: center;
+    color: aliceblue;
+    padding: 20px 0;
+}
+.lista-cadastro{
+    display: flex;
+    margin: 10px 0;
+    padding: 0 10px;
+    
+}
+.lista-cadastro input[type=text]{
+    flex: 1;
+    height: 40px;
+    padding-left: 20px;
+    border-radius: 10px;
+    font: bold 15px arial, sans-serif;
+}
+.lista-produtos-single{
+    padding: 10px 0;
+    margin: 15px 0;
+    border-bottom: 1px solid rgb(194, 183, 241);
+    display: flex;
+}
+.lista-produtos-single h3{
+    flex: 1;
+    padding:0 40px;
+}
+h3.price-produto{
+    text-align: right;
+    font-size: 17px;
+    
+    
+    
+}
+h3.price-produto > span{
+    background-color: rgb(53, 10, 94);
+    padding: 8px 10px;
+    border-radius: 20px;
+    color: aliceblue;
+    
+
+
+}
+.soma-produto{
+    margin: 20px;
+    background-color: rgb(53, 10, 94);
+    padding: 8px 10px;
+    border-radius: 20px;
+    color: aliceblue;
+    font: bold 15px arial, sans-serif;
+}
+
+.botao {
+   
+    background: #f2eff5;
+    color: rgb(53, 10, 94);
+    border-style: outset;
+    border-color: rgb(53, 10, 94);
+    border-radius: 20px;
+    height: 50px;
+    width: 100px;
+    font: bold 15px arial, sans-serif;
+    text-shadow:none;
+    
+    }
